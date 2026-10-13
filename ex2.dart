@@ -4,4 +4,8 @@ class Point {
     final double y;
 
     Point(this.x, this.y);
+
+    void afficherPoint() {
+        print("Point($x, $y)");
+    }
 }
