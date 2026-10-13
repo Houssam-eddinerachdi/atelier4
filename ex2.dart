@@ -14,14 +14,12 @@ class Point {
     double distance(Point autre) {
         return sqrt(pow(autre.x - x, 2) + pow(autre.y - y, 2));
     }
-void main() {
-  var p1 = Point(3, 4);
-  var p2 = Point(7, 1);
 
-  p1.afficherPoint();
-  p2.afficherPoint();
-
-  print("Distance entre p1 et p2 : ${p1.distance(p2)}");
 }
 
+void main() {
+  var pt = Point(2, 5);
+  pt.display();
+  pt.move(-1, 3);
+  pt.display();
 }
