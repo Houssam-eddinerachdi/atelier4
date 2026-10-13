@@ -3,4 +3,6 @@ class Compte {
   final String numeroCompte;
 
   Compte(this.numeroCompte);
+  String get solde {
+    eturn "${_solde.toStringAsFixed(2)} \$";
 }
